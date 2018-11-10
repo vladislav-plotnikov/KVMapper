@@ -9,8 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <KVMapping/KVMapping.h>
 
+@class KVInnerObject;
+
 @interface KVTestObject : NSObject <KVMappable>
 
 @property (readonly) NSString *name;
+@property (readonly) NSNumber *number;
+@property (readonly) BOOL boolValue;
+@property (readonly) NSInteger integerValue;
+@property (readonly) double doubleValue;
+
+@property (readonly) KVInnerObject *innerObject;
 
 @end
