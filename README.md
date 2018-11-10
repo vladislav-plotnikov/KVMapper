@@ -27,4 +27,4 @@ Vladislav Plotnikov, vladislav.plotnikoff@gmail.com
 
 ## License
 
-KVMapping is available under the GNU v3 license. See the LICENSE file for more info.
+KVMapping is available under the MIT license. See the LICENSE file for more info.
