@@ -1,7 +1,7 @@
 # KVMapping
 Key-Value Mapper for initialize objects from NSDictionary
 
-[![CI Status](https://img.shields.io/travis/Vladislav Plotnikov/KVMapping.svg?style=flat)](https://travis-ci.org/Vladislav Plotnikov/KVMapping)
+[![CI Status](https://img.shields.io/travis/vladislav-plotnikov/KVMapping.svg?style=flat)](https://travis-ci.org/vladislav-plotnikov/KVMapping)
 [![Version](https://img.shields.io/cocoapods/v/KVMapping.svg?style=flat)](https://cocoapods.org/pods/KVMapping)
 [![License](https://img.shields.io/cocoapods/l/KVMapping.svg?style=flat)](https://cocoapods.org/pods/KVMapping)
 [![Platform](https://img.shields.io/cocoapods/p/KVMapping.svg?style=flat)](https://cocoapods.org/pods/KVMapping)
