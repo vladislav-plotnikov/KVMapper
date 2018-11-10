@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E5796B3B7465B5F0CEB22D6 /* Pods_KVMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8876E2405E64FCE664DB8F /* Pods_KVMapper_Example.framework */; };
+		4836DD0021977E5A00D9AF2C /* KVTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4836DCFF21977E5A00D9AF2C /* KVTestObject.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		0D8876E2405E64FCE664DB8F /* Pods_KVMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		156D1DC1D68E8C615FB9A937 /* KVMapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVMapper.podspec; path = ../KVMapper.podspec; sourceTree = "<group>"; };
+		4836DCFE21977E5A00D9AF2C /* KVTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVTestObject.h; sourceTree = "<group>"; };
+		4836DCFF21977E5A00D9AF2C /* KVTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVTestObject.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KVMapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVMapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,9 +137,11 @@
 			children = (
 				6003F59C195388D20070C39A /* KVAppDelegate.h */,
 				6003F59D195388D20070C39A /* KVAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				4836DCFE21977E5A00D9AF2C /* KVTestObject.h */,
+				4836DCFF21977E5A00D9AF2C /* KVTestObject.m */,
 				6003F5A5195388D20070C39A /* KVViewController.h */,
 				6003F5A6195388D20070C39A /* KVViewController.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -397,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KVAppDelegate.m in Sources */,
+				4836DD0021977E5A00D9AF2C /* KVTestObject.m in Sources */,
 				6003F5A7195388D20070C39A /* KVViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

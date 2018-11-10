@@ -7,6 +7,7 @@
 //
 
 #import "KVViewController.h"
+#import "KVTestObject.h"
 
 @interface KVViewController ()
 
@@ -14,16 +15,15 @@
 
 @implementation KVViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    KVTestObject *object = [KVTestObject objectFromJSON:@{@"name" : @"TEST"}];
+    NSLog(@"Test object name is: %@", object.name);
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
