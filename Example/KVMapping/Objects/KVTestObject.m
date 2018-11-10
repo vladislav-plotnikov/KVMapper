@@ -29,6 +29,9 @@
                      expectedClass:NSNumber.class],
              [KVObject fromKeyPath:@"innerObject"
                          toKeyPath:@"innerObject"
+                     expectedClass:KVInnerObject.class],
+             [KVObject fromKeyPath:@"objectArray"
+                         toKeyPath:@"objectArray"
                      expectedClass:KVInnerObject.class]];
 }
 

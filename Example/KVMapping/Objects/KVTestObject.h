@@ -21,4 +21,6 @@
 
 @property (readonly) KVInnerObject *innerObject;
 
+@property (readonly) NSArray<KVInnerObject *> *objectArray;
+
 @end

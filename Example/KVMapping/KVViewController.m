@@ -39,7 +39,30 @@
                      @"boolValue"       : @NO,
                      @"integerValue"    : @2000,
                      @"doubleValue"     : @222222.22222
-                     }
+                     },
+             @"objectArray"     : @[
+                     @{
+                         @"name"            : @"One",
+                         @"number"          : @1,
+                         @"boolValue"       : @NO,
+                         @"integerValue"    : @1000,
+                         @"doubleValue"     : @111111111.111111
+                         },
+                     @{
+                         @"name"            : @"Two",
+                         @"number"          : @2,
+                         @"boolValue"       : @NO,
+                         @"integerValue"    : @2000,
+                         @"doubleValue"     : @222222.22222
+                         },
+                     @{
+                         @"name"            : @"Three",
+                         @"number"          : @3,
+                         @"boolValue"       : @NO,
+                         @"integerValue"    : @3000,
+                         @"doubleValue"     : @333333.333333
+                         }
+                     ]
              };
 }
 
