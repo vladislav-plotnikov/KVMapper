@@ -3,7 +3,7 @@
 //  KVMapper
 //
 //  Created by Vladislav Plotnikov on 25.04.2018.
-//  Copyright © 2018. All rights reserved.
+//  Copyright © 2018 Vladislav Plotnikov. All rights reserved.
 //
 
 #import "NSObject+KVMapper.h"
@@ -14,7 +14,7 @@
                   toKeyPath:(NSString *)toKey
               expectedClass:(Class)expectedClass {
     KVObject *object;
-    if ((object = [ParseObject new])) {
+    if ((object = [KVObject new])) {
         object.fromKeyPath      = fromKey;
         object.toKeyPath        = toKey;
         object.expectedClass    = expectedClass;
@@ -65,7 +65,7 @@
 
 - (void)parseWithOptions:(NSArray<KVObject *> *)options
                     json:(NSDictionary *)json {
-    for (ParseObject *option in options) {
+    for (KVObject *option in options) {
         
         if ([option.expectedClass conformsToProtocol:@protocol(KVMappable)]) {
             
