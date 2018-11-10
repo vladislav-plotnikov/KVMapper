@@ -1,14 +1,14 @@
 use_frameworks!
 
-target 'KVMapper_Example' do
-  pod 'KVMapper', :path => '../'
+target 'KVMapping_Example' do
+  pod 'KVMapping', :path => '../'
 
-  target 'KVMapper_Tests' do
+  target 'KVMapping_Tests' do
     inherit! :search_paths
 
     pod 'Specta'
     pod 'Expecta'
-#    pod 'FBSnapshotTestCase'
+    pod 'FBSnapshotTestCase'
     pod 'Expecta+Snapshots'
   end
 end

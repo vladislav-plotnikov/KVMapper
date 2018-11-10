@@ -1,6 +1,6 @@
 //
-//  NSObject+KVMapper.h
-//  KVMapper
+//  NSObject+KVMapping.h
+//  KVMapping
 //
 //  Created by Vladislav Plotnikov on 25.04.2018.
 //  Copyright © 2018 Vladislav Plotnikov. All rights reserved.
