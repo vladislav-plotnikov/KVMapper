@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4836DE9221978BF600D9AF2C /* KVTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4836DE9121978BF500D9AF2C /* KVTestObject.m */; };
+		4836DE9C2197A16800D9AF2C /* KVInnerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4836DE9B2197A16800D9AF2C /* KVInnerObject.m */; };
 		4FC545A336406ECAFA75C3E3 /* Pods_KVMapping_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B8684DD58473DEA55EA1E1 /* Pods_KVMapping_Tests.framework */; };
 		5584DB69BDFA44A61FE7D6FA /* Pods_KVMapping_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFE95FD0DD757AD7354F545 /* Pods_KVMapping_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -42,6 +43,8 @@
 		332AC4D568C00AA359F81B6E /* KVMapping.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KVMapping.podspec; path = ../KVMapping.podspec; sourceTree = "<group>"; };
 		4836DE9021978BF500D9AF2C /* KVTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTestObject.h; sourceTree = "<group>"; };
 		4836DE9121978BF500D9AF2C /* KVTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTestObject.m; sourceTree = "<group>"; };
+		4836DE9A2197A16800D9AF2C /* KVInnerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVInnerObject.h; sourceTree = "<group>"; };
+		4836DE9B2197A16800D9AF2C /* KVInnerObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVInnerObject.m; sourceTree = "<group>"; };
 		5479091B6F2FC3F31834A2C4 /* Pods-KVMapping_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVMapping_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVMapping_Tests/Pods-KVMapping_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		590DBE02469E955F2D38CD02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KVMapping_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVMapping_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4836DE992197A12D00D9AF2C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4836DE9021978BF500D9AF2C /* KVTestObject.h */,
+				4836DE9121978BF500D9AF2C /* KVTestObject.m */,
+				4836DE9A2197A16800D9AF2C /* KVInnerObject.h */,
+				4836DE9B2197A16800D9AF2C /* KVInnerObject.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +149,9 @@
 		6003F593195388D20070C39A /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				4836DE992197A12D00D9AF2C /* Objects */,
 				6003F59C195388D20070C39A /* KVAppDelegate.h */,
 				6003F59D195388D20070C39A /* KVAppDelegate.m */,
-				4836DE9021978BF500D9AF2C /* KVTestObject.h */,
-				4836DE9121978BF500D9AF2C /* KVTestObject.m */,
 				6003F5A5195388D20070C39A /* KVViewController.h */,
 				6003F5A6195388D20070C39A /* KVViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -404,6 +417,7 @@
 				6003F59E195388D20070C39A /* KVAppDelegate.m in Sources */,
 				4836DE9221978BF600D9AF2C /* KVTestObject.m in Sources */,
 				6003F5A7195388D20070C39A /* KVViewController.m in Sources */,
+				4836DE9C2197A16800D9AF2C /* KVInnerObject.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
