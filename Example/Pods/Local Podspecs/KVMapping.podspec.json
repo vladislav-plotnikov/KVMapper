@@ -1,0 +1,23 @@
+{
+  "name": "KVMapping",
+  "version": "0.1.0",
+  "summary": "Mapping objects from NSDictionary",
+  "description": "Category NSObject for mapping objects from NSDictionary",
+  "homepage": "https://github.com/Vladislav-Plotnikov/KVMapping",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vladislav Plotnikov": "vladislav.plotnikoff@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Vladislav-Plotnikov/KVMapping.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KVMapping/**/*",
+  "exclude_files": "KVMapping/**/*.plist"
+}

@@ -1,0 +1,6 @@
+framework module KVMapping {
+  umbrella header "KVMapping-umbrella.h"
+
+  export *
+  module * { export * }
+}

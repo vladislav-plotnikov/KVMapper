@@ -1,0 +1,16 @@
+PODS:
+  - KVMapping (0.1.0)
+
+DEPENDENCIES:
+  - KVMapping (from `../`)
+
+EXTERNAL SOURCES:
+  KVMapping:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KVMapping: acc23ea8e5ec6b25c7b574500701c9b41c08d533
+
+PODFILE CHECKSUM: 7ff47af48e7ce5ed566c57e4a462f820ba7466f1
+
+COCOAPODS: 1.5.3
