@@ -17,6 +17,7 @@
 		670982EF856CB50E55A973B2 /* libPods-KVMappingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 644DB5A17E8E3E19C3516883 /* libPods-KVMappingExample.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EDFA127E925B264B9152F18A /* libPods-KVMappingExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 392278847D31FFBF59057094 /* libPods-KVMappingExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C3499DED143DA33A3A07A7 /* Pods-KVMappingExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVMappingExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVMappingExampleTests/Pods-KVMappingExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		1A702815A549565D9960F22E /* Pods_KVMapping_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVMapping_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		392278847D31FFBF59057094 /* libPods-KVMappingExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVMappingExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4836DE9021978BF500D9AF2C /* KVTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTestObject.h; sourceTree = "<group>"; };
 		4836DE9121978BF500D9AF2C /* KVTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTestObject.m; sourceTree = "<group>"; };
 		4836DE9A2197A16800D9AF2C /* KVInnerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVInnerObject.h; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		966F7EDFBE5E43EEBA34CA7A /* Pods-KVMapping_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVMapping_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVMapping_Example/Pods-KVMapping_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8FE2A0BFBD44A18D4F3E3A8 /* Pods-KVMappingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVMappingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVMappingExample/Pods-KVMappingExample.release.xcconfig"; sourceTree = "<group>"; };
+		FED7A783682FD881CFA32F11 /* Pods-KVMappingExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVMappingExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVMappingExampleTests/Pods-KVMappingExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFA127E925B264B9152F18A /* libPods-KVMappingExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +144,7 @@
 				48C1E71A21981B100075994C /* KVMapping.framework */,
 				1A702815A549565D9960F22E /* Pods_KVMapping_Example.framework */,
 				644DB5A17E8E3E19C3516883 /* libPods-KVMappingExample.a */,
+				392278847D31FFBF59057094 /* libPods-KVMappingExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 				966F7EDFBE5E43EEBA34CA7A /* Pods-KVMapping_Example.release.xcconfig */,
 				6121404E9BC9800106F4C459 /* Pods-KVMappingExample.debug.xcconfig */,
 				C8FE2A0BFBD44A18D4F3E3A8 /* Pods-KVMappingExample.release.xcconfig */,
+				FED7A783682FD881CFA32F11 /* Pods-KVMappingExampleTests.debug.xcconfig */,
+				12C3499DED143DA33A3A07A7 /* Pods-KVMappingExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -211,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "KVMappingExampleTests" */;
 			buildPhases = (
+				D8CE1F8D573C9FA13EE209A8 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -300,6 +309,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KVMappingExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CE1F8D573C9FA13EE209A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVMappingExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -484,6 +515,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED7A783682FD881CFA32F11 /* Pods-KVMappingExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,13 +533,14 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVMappingExample_Example.app/KVMappingExample_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVMappingExample.app/KVMappingExample";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C3499DED143DA33A3A07A7 /* Pods-KVMappingExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,7 +554,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVMappingExample_Example.app/KVMappingExample_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVMappingExample.app/KVMappingExample";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

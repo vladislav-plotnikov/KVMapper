@@ -4,12 +4,12 @@ target 'KVMappingExample' do
   
   pod 'KVMapping', :path => '../'
 
-#  target 'KVMapping_Tests' do
-#    inherit! :search_paths
+  target 'KVMappingExampleTests' do
+    inherit! :search_paths
 
-#    pod 'Specta'
-#    pod 'Expecta'
+    pod 'Specta'
+    pod 'Expecta'
 #    pod 'FBSnapshotTestCase'
 #    pod 'Expecta+Snapshots'
-#  end
+  end
 end
