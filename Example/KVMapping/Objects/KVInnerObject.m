@@ -1,6 +1,6 @@
 //
 //  KVInnerObject.m
-//  KVMapping_Example
+//  KVMappingExample
 //
 //  Created by Vladislav Plotnikov on 11/11/2018.
 //  Copyright © 2018 Vladislav Plotnikov. All rights reserved.
@@ -26,6 +26,10 @@
              [KVObject fromKeyPath:@"doubleValue"
                          toKeyPath:@"doubleValue"
                      expectedClass:NSNumber.class]];
+}
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Name: %@\nNumber: %@\nboolValue: %@\nintegerValue: %@\ndoubleValue: %@", _name, _number, @(_boolValue), @(_integerValue), @(_doubleValue)];
 }
 
 @end

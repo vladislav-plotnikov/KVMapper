@@ -13,13 +13,16 @@
 
 @end
 
-@implementation KVViewController
+@implementation KVViewController {
+    __weak IBOutlet UILabel *objectLabel;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     KVTestObject *object = [KVTestObject objectFromJSON:[self getTestDictionary]];
     NSLog(@"Test object name is: %@", object.name);
+    objectLabel.text = object.description;
 }
 
 - (void)didReceiveMemoryWarning {

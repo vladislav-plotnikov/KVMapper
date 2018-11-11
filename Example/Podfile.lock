@@ -1,27 +1,16 @@
 PODS:
-  - Expecta (1.0.6)
   - KVMapping (0.1.0)
-  - Specta (1.0.7)
 
 DEPENDENCIES:
-  - Expecta
   - KVMapping (from `../`)
-  - Specta
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Expecta
-    - Specta
 
 EXTERNAL SOURCES:
   KVMapping:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  KVMapping: 53f4861dcaac74e3f7a6e5725469a6c6e4417baf
-  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  KVMapping: acc23ea8e5ec6b25c7b574500701c9b41c08d533
 
-PODFILE CHECKSUM: dcfc9ea5cecf0a658668361447cb438f8d71579f
+PODFILE CHECKSUM: 7ff47af48e7ce5ed566c57e4a462f820ba7466f1
 
 COCOAPODS: 1.5.3

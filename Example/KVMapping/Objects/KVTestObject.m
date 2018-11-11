@@ -1,6 +1,6 @@
 //
 //  KVTestObject.m
-//  KVMapping_Example
+//  KVMappingExample
 //
 //  Created by Vladislav Plotnikov on 11/11/2018.
 //  Copyright © 2018 Vladislav Plotnikov. All rights reserved.
@@ -33,6 +33,10 @@
              [KVObject fromKeyPath:@"objectArray"
                          toKeyPath:@"objectArray"
                      expectedClass:KVInnerObject.class]];
+}
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Name: %@\nNumber: %@\nboolValue: %@\nintegerValue: %@\ndoubleValue: %@\ninnerObject: %@\nobjectArray: %@", _name, _number, @(_boolValue), @(_integerValue), @(_doubleValue), _innerObject.description, _objectArray.description];
 }
 
 @end

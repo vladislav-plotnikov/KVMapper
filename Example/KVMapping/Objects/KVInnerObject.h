@@ -1,13 +1,13 @@
 //
 //  KVInnerObject.h
-//  KVMapping_Example
+//  KVMappingExample
 //
 //  Created by Vladislav Plotnikov on 11/11/2018.
 //  Copyright © 2018 Vladislav Plotnikov. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <KVMapping/KVMapping.h>
+#import <KVMapping/NSObject+KVMapping.h>
 
 @interface KVInnerObject : NSObject <KVMappable>
 
